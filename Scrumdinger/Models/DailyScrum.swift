@@ -13,6 +13,7 @@ struct DailyScrum: Identifiable {
     var attendees: [Attendee]
     var lengthInMinutes: Int
     var theme: Theme
+    var history: [History] = []
     
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
         self.id = id
@@ -45,7 +46,27 @@ extension DailyScrum {
         Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme)
     }
     
+    /*
+     This block was added to the sample files between
+     the completed version of the chapter "Creating the Edit View" and
+     the starting  version of the chapter "Passing Data with Bindings"
+     without accompanying guidance in the tutorial
+     */
     mutating func update(from data: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        theme = data.theme
+    }
+
+    /*
+     This block was added to the sample files between
+     the completed version of the chapter "Managing State and Life Cycle" and
+     the starting  version of the chapter "Updating App Data"
+     without accompanying guidance in the tutorial
+     */
+    init(data: Data) {
+        id = UUID()
         title = data.title
         attendees = data.attendees
         lengthInMinutes = Int(data.lengthInMinutes)
