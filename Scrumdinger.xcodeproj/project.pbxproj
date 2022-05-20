@@ -27,6 +27,8 @@
 		5FC833CD2836BFC80077B211 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC833CC2836BFC80077B211 /* AVPlayer+Ding.swift */; };
 		5FC833D02836C0640077B211 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5FC833CF2836C0640077B211 /* ding.wav */; };
 		5FC89B142836DBC5004DA47B /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC89B132836DBC5004DA47B /* ScrumStore.swift */; };
+		5FC89B1628370BCA004DA47B /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC89B1528370BCA004DA47B /* ErrorWrapper.swift */; };
+		5FC89B1828370CB4004DA47B /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC89B1728370CB4004DA47B /* ErrorView.swift */; };
 		5FD75D952836D0F40036324E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD75D942836D0F40036324E /* History.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		5FC833CC2836BFC80077B211 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		5FC833CF2836C0640077B211 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		5FC89B132836DBC5004DA47B /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		5FC89B1528370BCA004DA47B /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		5FC89B1728370CB4004DA47B /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		5FD75D942836D0F40036324E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,7 @@
 			children = (
 				5FC833CC2836BFC80077B211 /* AVPlayer+Ding.swift */,
 				5F43BE5927D267610051F6DD /* DailyScrum.swift */,
+				5FC89B1528370BCA004DA47B /* ErrorWrapper.swift */,
 				5FD75D942836D0F40036324E /* History.swift */,
 				5FC89B132836DBC5004DA47B /* ScrumStore.swift */,
 				5FC833C82836B0010077B211 /* ScrumTimer.swift */,
@@ -122,6 +127,7 @@
 				5F43BE5B27D268220051F6DD /* CardView.swift */,
 				5FC833BE2835EFB90077B211 /* DetailEditView.swift */,
 				5F9A1F0627D6DF5C00F35183 /* DetailView.swift */,
+				5FC89B1728370CB4004DA47B /* ErrorView.swift */,
 				5FC833CA2836B2630077B211 /* MeetingFooterView.swift */,
 				5FC833C42836AAAE0077B211 /* MeetingHeaderView.swift */,
 				5F43BE4A27D261D30051F6DD /* MeetingView.swift */,
@@ -223,10 +229,12 @@
 				5F9A1F0727D6DF5C00F35183 /* DetailView.swift in Sources */,
 				5FC833C52836AAAE0077B211 /* MeetingHeaderView.swift in Sources */,
 				5FC833BF2835EFB90077B211 /* DetailEditView.swift in Sources */,
+				5FC89B1628370BCA004DA47B /* ErrorWrapper.swift in Sources */,
 				5F43BE5E27D26ECC0051F6DD /* TrailingIconLabelStyle.swift in Sources */,
 				5F43BE5827D2659D0051F6DD /* Theme.swift in Sources */,
 				5F43BE6027D273A20051F6DD /* ScrumsView.swift in Sources */,
 				5F43BE4B27D261D30051F6DD /* MeetingView.swift in Sources */,
+				5FC89B1828370CB4004DA47B /* ErrorView.swift in Sources */,
 				5F43BE4927D261D30051F6DD /* ScrumdingerApp.swift in Sources */,
 				5FC833C128368A270077B211 /* ThemeView.swift in Sources */,
 				5F43BE5C27D268220051F6DD /* CardView.swift in Sources */,
