@@ -1,0 +1,6 @@
+# Scrumdinger
+In early 2022, I worked through Apple's [Develop Apps for iOS](https://developer.apple.com/tutorials/app-dev-training/) course to explore current best practices prior to WWDC22. The course involves building two apps: scrum-management app [Scrumdinger](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger) in SwiftUI, and reminders app [Today](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-today)in Swift and UIKit. 
+
+All code in **Scrumdinger** was entered in the process of working through the course, with the exception of `AVPlayer+Ding.swift`, `ScrumTimer.swift`, `ScrumViewProgressStyle.swift`, and `SpeechRecognizer.swift`, which were added from downloads as instructed, along with the asset catalog and a sound effect. 
+
+Additionally, two code blocks were added to `DailyScrum.swift` from sample files. In each case, code was introduced into the sample files between the completed version in one chapter and the starting version of the next, without accompanying guidance in the tutorials. This complicated the process of working through the project from start to finish, so I've commented those blocks (and the errors they generate elsewhere) in the hope of helping others working through the course.
